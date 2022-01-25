@@ -29,6 +29,10 @@
   color: white !important;
 }
 
+.fa-medium {
+  color: white;
+}
+
 .navbar-nav .nav-item .nav-link {
   font-size: 20px;
   font-weight: 600;
@@ -56,6 +60,11 @@
   max-width: 180px;
 }
 
+@media screen and (max-width: 560px) {
+  span {
+    display: none;
+  }
+}
 #banner {
   background: url(../wallpaper/bg.jpg) no-repeat center;
   background-size: cover;
@@ -989,9 +998,8 @@
   font-family: "Lo-Res";
 }
 
-@media screen and (max-width: 400px) {
-  .staking_intro_title,
-.sub-title {
+@media screen and (max-width: 450px) {
+  .sub-title {
     margin-top: 5%;
     justify-content: center !important;
     text-align: center !important;
@@ -1011,7 +1019,7 @@
     padding: 0 !important;
     padding-top: 5% !important;
     padding-bottom: 5% !important;
-    width: 80%;
+    width: 100%;
   }
 
   .staked_bearx {
@@ -1024,7 +1032,7 @@
   }
 
   .unstaked_bearx > div {
-    width: 80%;
+    width: 100%;
   }
 
   .full-width {
@@ -1036,6 +1044,16 @@
   .flex-wrap {
     display: flex;
     flex-direction: column;
+  }
+}
+@media screen and (max-width: 1180px) {
+  .staking_bearx_body {
+    display: block !important;
+  }
+
+  .staking_bearx_body_left {
+    width: 50%;
+    margin: 0 auto;
   }
 }
 .item {
@@ -1410,6 +1428,10 @@ button:disabled {
   .claim-rootx-yield-Rewards-subdashboard {
     display: block !important;
   }
+
+  .claim-rootx-title {
+    font-size: 1.5rem;
+  }
 }
 @media screen and (max-width: 1280px) {
   .claim-rootx-yield-dashboard {
@@ -1431,6 +1453,11 @@ button:disabled {
     margin-left: 0 !important;
     margin-top: 1rem;
     margin-bottom: 3rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .claim-rootx-mainboard {
+    display: block !important;
   }
 }
 .claim-rootx-yield-dashboard-item {
