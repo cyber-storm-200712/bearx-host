@@ -1,5 +1,5 @@
 #topbar {
-  background: #ffae41;
+  background: black;
 }
 #topbar .topbar__icons {
   display: flex;
@@ -25,6 +25,10 @@
   width: 32px;
 }
 
+.Navbar_text {
+  color: white !important;
+}
+
 .navbar-nav .nav-item .nav-link {
   font-size: 20px;
   font-weight: 600;
@@ -42,6 +46,10 @@
 
 #navbar {
   background: #050517;
+}
+
+.nav-link {
+  color: white !important;
 }
 
 .navbar-brand img {
@@ -735,7 +743,7 @@
   justify-content: start;
   align-items: center;
   width: 100%;
-  background-color: #2b2a56;
+  background-color: black;
 }
 
 .staking_bearx_body_left {
@@ -773,7 +781,7 @@
 
 .staking_goto_button {
   border: none;
-  background-color: #fd7e14;
+  background-color: black;
   color: white;
   padding: 0.5rem 1rem;
   font-size: 1rem;
@@ -785,7 +793,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #fd7e14;
+  color: black;
   font-size: 5rem;
   font-family: "Lo-Res";
   text-shadow: 1.5px 1.5px 0 #161616;
@@ -972,6 +980,7 @@
   text-align: left;
   word-break: Keep-all;
   font-size: 28px !important;
+  color: white !important;
 }
 
 .align-center {
@@ -1125,6 +1134,11 @@
     width: 80% !important;
   }
 }
+button:disabled {
+  cursor: not-allowed !important;
+  pointer-events: none !important;
+}
+
 .claim {
   display: flex;
   flex-direction: column;
