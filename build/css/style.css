@@ -1328,6 +1328,10 @@ button:disabled {
   flex-direction: row;
 }
 
+.reward {
+  width: 125% !important;
+}
+
 .status-value {
   text-align: center;
   font-size: 28px;
@@ -1341,7 +1345,7 @@ button:disabled {
 .claim-rootx-button {
   border: none;
   background-color: #663399;
-  font-size: 2.5rem;
+  font-size: 20px;
   color: white;
   font-family: "Lo-Res";
   padding: 0.7rem 2rem;
@@ -1539,7 +1543,7 @@ button:disabled {
 .claim-rootx-button {
   border: none;
   background-color: #663399;
-  font-size: 2rem;
+  font-size: 20px;
   color: white;
   font-family: "Lo-Res";
   padding: 0.7rem 2rem;
