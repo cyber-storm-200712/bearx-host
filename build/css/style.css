@@ -52,13 +52,20 @@
   border: 2px solid #ffae41;
   border-radius: 10px 0px 10px 0px;
 }
+.navbar-nav .special-tab1 {
+  width: 200px;
+}
+.navbar-nav .special-tab2 {
+  width: 200px;
+}
 
 #navbar {
   background: #050517;
 }
 
-.nav-link {
+.special-items {
   color: white !important;
+  width: 180px;
 }
 
 .navbar-brand img {
@@ -1328,10 +1335,6 @@ button:disabled {
   flex-direction: row;
 }
 
-.reward {
-  width: 125% !important;
-}
-
 .status-value {
   text-align: center;
   font-size: 28px;
@@ -1554,6 +1557,10 @@ button:disabled {
   text-align: left;
   word-break: keep-all;
   font-size: 0.75rem;
+}
+
+.special-title {
+  height: 100px !important;
 }
 
 * {
